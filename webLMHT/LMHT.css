@@ -1,0 +1,515 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	color: white;
+	font-size: 15px;
+	font-family: tohama, arial;
+	background: url(nenLMHT.jpg)  ;
+	background-size: cover;
+	height: auto;
+}
+.header {
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	float: left;
+}
+.header img{
+	height: 150px;
+	width: 300px;
+}
+.active{
+	background-color: red;
+	color: black;
+}
+.main{
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 3000px;
+	position: relative;
+	height: auto;
+}
+
+.top-menu {
+	width: 100%;
+	height: 48px;
+	position: sticky;
+	top: 0;
+	background-color: rgba(42,42,42,0.9);
+	z-index: 3;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+.top-menu ul{
+	margin: 0;
+	padding: 0;
+}
+.top-menu ul li{
+	list-style: none;
+	float: left;
+	width: 120px;
+	position: relative;
+}
+.top-menu ul li a{
+	color: white;
+	font-weight: bold;
+	line-height: 48px;
+	text-align: center;
+	width: 120px;
+	border-right: 1px solid gray;
+	display: block;
+	background-color: rgba(42,42,42,0.9);
+	text-decoration: none;
+}
+.chu{
+	float: left;
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	position: relative;
+	margin-top: 10px;
+}
+.chu img{
+	position: absolute;
+	height: 150px;
+	top: 30px;
+	left: 30%;
+	z-index: 1;
+}
+.chu img a:hover{
+	opacity: 0.5;
+}
+.ngonngu {
+	font-family: "Beaufort for LOL";
+	position: absolute;
+	width: 100px;
+	height: 25px;
+	border-radius: 50px;
+	border:2px solid gray;
+	color: lightgray;
+	font-weight: bolder;
+	top: 20px;
+	right: 20px;
+	padding: 4px;
+	font-size: 12px;
+}
+.ngonngu a{
+	color: lightgray;
+	text-decoration: none;
+}
+.ngonngu a:hover{
+	color: yellow;
+}
+.top-menu ul li a:hover{
+	color: red;
+	background-color: black;
+	border-bottom: 1px solid gray;
+}
+.top-menu ul li:hover .sub-menu{
+	display: block;
+}
+.sub-menu{
+	float: left;
+	background-color: black;
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.sub-menu li{
+	background-color: black;
+	color: white;
+}
+.tat{
+	z-index: 10;
+	color: black;
+	font-weight: bolder;
+	float: right;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.log-in{
+	z-index: -5;
+	height: auto;
+	width: 350px;
+	color: black;
+	top: 20%;
+	left: 40%;
+	position: fixed;
+	background: linear-gradient(lightgray,white);
+	border-radius: 15px;
+	border:5px solid gray;
+	opacity: 0;
+	padding: 40px 0 20px 0; 	
+}
+.log-in form{
+	text-align: center;
+	padding-top: 15px;
+	color: black;
+	font-weight: bolder;
+	text-align: center;
+}
+.log-in input{
+	margin: 4px;
+}
+.log-in img{
+	position: relative;
+	left: 30%;
+}
+
+.news{
+	border-radius: 15px;
+	color: black;
+	float: left;
+	width: 100%;
+	height:auto;
+	background: linear-gradient(lightgray,white);
+	float: left;
+	overflow: hidden;
+	border:5px solid gray;
+	padding: 2px 5px;
+}
+.news p{
+	width: 100%;
+	height: 50px;
+	color: lightgray;
+	background-color: black;
+	line-height: 50px;
+	font-size: 25px;
+	padding-left: 25px;
+}
+.news h2:hover{
+	color: black;
+}
+.news ul{
+	margin: 0;
+	padding: 0;
+}
+.news ul li{
+	overflow: hidden;
+	list-style: none;
+	clear: left;
+	height: 250px;
+	position: relative;
+}
+.news ul li img{
+	width: 360px;
+	height: 180px;
+}
+.news ul li a{
+	text-decoration: none;
+	margin: 15px;
+	opacity: 1;
+	padding-top: 20px;
+	color: #39840c;
+}
+.news span{
+	float: right;
+	position: absolute;
+	font-style: italic;
+	bottom: 30px;
+	right: 50px;
+	font-size: 13px;
+	color: gray;
+	text-decoration: underline;
+}
+.news ul img{
+	border-radius: 10px;
+	float: left;
+	margin: 25px 25px 0px 25px;
+	opacity: 0.95;
+}
+.news ul a img:hover{
+	opacity: 1;
+}
+.news ul h2{
+	    margin: 15px 0px 0px 0px;
+}
+.news ul li{
+	border-bottom: 2px solid gray;
+}
+.news ul li:last-child{
+	border-bottom: none;
+	position: relative;
+	height: 280px;
+}
+.chan{
+	position: absolute;
+	bottom: 30px;
+	padding: 0px;
+	margin: 0px;
+	left: 40%;
+}
+.chan a:hover{
+	color: darkred;
+}
+.news ul li div{
+	font-size: 13px;
+}
+.news >div{
+	float: right;
+	height: 100%;
+	line-height: 100%;
+	width: 50px;
+}
+
+.chitiet{
+	width: 160px;
+	height: 50px !important;
+	background: #1c1f26;
+	color:#39840c;
+	font-size: 23px;	
+	float: left;
+	display: inline-block;
+	border-radius: 5px;
+	line-height: 15px !important;
+	text-align: center;
+	font-weight: lighter;
+	transition: 0.5s;
+}
+.chitiet:hover{
+	opacity: 0.9;
+	background:#39840c;
+	color: black;
+}
+.footer{
+float: left;
+height: 167px;
+width: 100%;
+background:black;
+margin: 5px 0 5px 0;
+color: white;
+font-weight: bold;
+position: relative;
+}
+a{	
+	color: #ffffff;
+	text-decoration: none;
+}
+.logo_riot{
+	width: 103px;
+	height: 104px;
+	background: url(logo_footer.png);
+	line-height: 104px;
+	float: left;
+	margin-top:60px;
+
+	margin-right: 50px;
+}
+.logo_riot2{
+	width: 103px;
+	height: 104px;
+	background: url(logo-rating-na.png) no-repeat ;
+	line-height: 104px;
+	float: right;
+	position: absolute;
+	margin-top:50px;
+	bottom: 30px;
+	right: 0px;
+	margin-right: 80px;
+}
+.menunho ul{
+	width: 60%;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+.menunho ul li {
+	margin-top: 20px;
+	float: left;
+	display: inline-block;
+	width: 100px;
+	margin-left: 50px;
+}
+.menunho ul li a{
+	font-weight: lighter;
+	color: #39840c;	
+	margin-bottom: 10px;
+}
+.menunho ul li a:hover{
+	color: white;
+}
+.menunho span{
+	margin-top: 20px;
+}
+.menunho p{
+	text-align: center;
+	height: 40px;
+	background: rgba(160,150,5,0.9);
+	display: inline-block;
+	line-height: 40px;
+	padding: 3px;
+	width: 120px;
+	color: black;
+	font-weight: lighter;
+	float: left;
+}
+.menunho p:hover{
+	background: rgba(160,150,5,2.5);
+}
+.lienhe{
+	float: left;
+}
+.lienhe{
+	display: inline-block;
+}
+.logo_riot_phai{
+	background: url('logo_footer.png');
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	float: right;
+}
+
+.background{
+	background-image: url(background.jpg);
+}
+
+.gotop {
+	display:none;
+	width: 80px;
+	height: 80px;
+	position :fixed;
+	bottom: 20px;right: 20px;
+    transition-duration: 0.3s;
+}
+.gotop img{
+	width: 50px !important;
+	height: 50px;
+}
+.gotop:hover	{
+	background:(#ffffff,0.9);
+	transform: scale(0.9);
+}
+.canhbao{
+	position: fixed;
+	height: 50px;
+	width: 80px;
+	top: 80px;
+	left: 5px;
+}
+.down{
+	border: 3px solid rgba(192,252,253,0.7);
+	color: #f0e6d2;
+	font-size: 15px;
+	background: #1e2328;
+	border-image: linear-gradient(to bottom,#08abac,#01698b);
+	border-image-slice: 1;
+	width: 130px;
+	text-align: center;
+	display: inline-block;
+}
+.down:hover{
+	box-shadow: 0 0 10px 4px rgba(192,252,253,0.4) ;
+	background: linear-gradient(rgba(12,50,70,0.9));
+
+}
+.downto{
+	position: absolute;
+	bottom: 5px;
+	left: 17%;
+}
+.downto a{
+	display:block;
+	padding: 10px;
+}
+.footer a img{
+	position: absolute;
+    right: -20px;
+    bottom: 40px;
+    width: 120px;
+}
+.menunho span{
+	font-style: italic;
+	font-weight: lighter;
+	float: left;
+}
+.slideshow{
+	position: relative;
+	width: 100%;
+	height: 350px;
+	margin: 5px 0px;
+	float: left;
+	border-radius: 15px;
+	border:5px solid rgba(200,140,0,0.9);
+}
+.slide-nho{
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	top: 0px;
+	position: absolute;
+	cursor:  pointer;
+	animation-duration:3s;
+	animation-name: hieuung;
+}
+.slide-nho img{
+	width: 100%;
+	border-radius: 15px;
+	height: 100%;
+}
+.slide-nho h1:hover, .nd:hover{
+	color: red;
+	cursor: pointer;
+}
+.slide-nho .nd{
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+	font-size: 14px;
+	font-style: italic;
+}
+.slide-nho h1{
+	left: 4%;
+	bottom: 18%;
+	position: absolute;
+	color:  rgba(200,140,0,0.9);
+
+}
+.quatrang{
+	position: absolute;
+	top: 40%;
+	right: 10px;
+	cursor: pointer;
+	font-size: 50px;
+}
+.luitrang{
+	position: absolute;
+	top: 40%;
+	cursor: pointer;
+	font-size: 50px;
+	left: 10px;
+}
+@-webkit-keyframes hieuung{
+	from{opacity: 0.5; transform:translateX(-1%);}
+	to{opacity: 1; transform:translateX(0%);}
+}
+@keyframes hieuung{
+	from{opacity: 0.5;transform:translateX(-1%);}
+	to{opacity: 1;transform:translateX(0%);}
+}
+.gmail{
+	margin: 10px auto;
+	width: 70%;
+	height: 30px;
+	display: block;
+	background: rgba(250,0,0,0.8);
+}
+.fb{
+	margin: 1px auto;
+	width: 70%;
+	height: 30px;
+	background:rgba(48,96,180,0.8) ;
+	display: block;
+}
+.gmail,.fb {
+	font-weight: lighter;
+	line-height: 30px;
+	font-size: 12px;
+}
+.gmail:hover, .fb:hover{
+	opacity: 0.8;
+}

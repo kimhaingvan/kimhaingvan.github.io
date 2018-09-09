@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en"  >
+<head>
+	<title> Anime </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 	
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/angular-material.min.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.responsive.css">
+	<link rel="stylesheet" href="owl.carousel.min.css">
+	<link rel="stylesheet" href="owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+</style>
+<body ng-app="myApp" ng-co	ntroller="MyController">
+
+	<!--header-->
+	<header>
+		<div class="container">
+			<div class="header">
+				<div class="row">
+					<div class="col-md-3 logo">
+						<a href="index.html"><img src="image/logo.png" alt="logo-header"></a>
+					</div>
+					<div class="col-md-5 search form-control-static">
+						<input type="search" class="form-control"  value="Bạn cần tìm kiếm" name="search" id="search"><i class="fas fa-search"></i>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="menu">
+						<nav class="navbar navbar-expand-lg mt-2 navbar-dark bg-dark">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav">
+									<li class="nav-item active">
+										<a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Thể loại</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Nhóm dịch</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Loại phim</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Lọc phim</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Lịch chiếu phim</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Bảng xếp hạng</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="slider">
+						<div class="owl-carousel owl-theme">
+							<div class="item"><img src="image/abpypIQ.png"></div>
+							<div class="item"><img src="image/lKWhHwy.jpg"></div>
+							<div class="item"><img src="image/mKG3hO2.jpg"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<!--main_content-->
+	<div class="main_content">
+		<div class="container">
+			<ul class="nav nav-pills mb-3 pt-3 col-md-4 col-xs-12 container" style="padding-left: 15px;" id="pills-tab" role="tablist">
+				<li class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+					<a>Phim mới nhất</a>
+				</li>
+				<li class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+					<a>Phim hot nhất</a>
+				</li>
+			</ul>
+			<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">				
+					<div class="row">
+						<div class="col-md-4 col-xs-12">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/1.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Aikatsu Friends</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Tập 15 - AiTube Cinderella</span>
+											<span class="new-clip-view pull-right">224 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/2.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Hanebado!</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Tập 4 - Mình cũng lạc luôn rồi</span>
+											<span class="new-clip-view pull-right">2,922 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/3.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Attack on Titan</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+											<span class="new-clip-view pull-right">47,043 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12 mt-4">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/7.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Attack on Titan</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+											<span class="new-clip-view pull-right">47,043 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12 mt-4">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/8.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Attack on Titan</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+											<span class="new-clip-view pull-right">47,043 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12 mt-4">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/9.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Attack on Titan</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+											<span class="new-clip-view pull-right">47,043 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+					<div class="row">
+						<div class="col-md-4 col-xs-12">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/4.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Aikatsu Friends</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Tập 15 - AiTube Cinderella</span>
+											<span class="new-clip-view pull-right">224 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/5.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Hanebado!</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Tập 4 - Mình cũng lạc luôn rồi</span>
+											<span class="new-clip-view pull-right">2,922 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/6.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Attack on Titan</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+											<span class="new-clip-view pull-right">47,043 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12 mt-4">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/8.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Attack on Titan</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+											<span class="new-clip-view pull-right">47,043 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12 mt-4">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/9.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Attack on Titan</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+											<span class="new-clip-view pull-right">47,043 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12 mt-4">
+							<div class="new-clip">
+								<a href="#">
+									<img src="image/new_clip/7.jpg" alt="">
+									<div class="new-clip-content">
+										<div class="new-clip-title">
+											<span>Attack on Titan</span>
+										</div>
+										<div class="new-clip-info">
+											<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+											<span class="new-clip-view pull-right">47,043 lượt xem</span>
+										</div>
+									</div>
+									<div class="new-clip-see-more">
+										<span>XEM NGAY</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--main-gallery-->
+	<div class="main_gallerys pt-lg-5">
+		<div class="gallerys">
+			<div class="wraper">
+				<div class="gallerys-title">
+					<h2>Bộ sưu tập <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
+				</div>
+			</div>
+			<div class="wraper">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="gallery">
+							<a href="#">
+								<img src="image/gallery/1.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery">
+							<a href="#">
+								<img src="image/gallery/2.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery">
+							<a href="#">
+								<img src="image/gallery/3.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery">
+							<a href="#">
+								<img src="image/gallery/4.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="wraper">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="gallery">
+							<a href="#">
+								<img src="image/gallery/5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery">
+							<a href="#">
+								<img src="image/gallery/6.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery">
+							<a href="#">
+								<img src="image/gallery/7.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery">
+							<a href="#">
+								<img src="image/gallery/8.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--main_news-->
+	<div class="main_news pt-lg-5 mb-lg-5">
+		<div class="container">
+			<div class="news">
+				<div class="news-title">
+					<h2>Tin mới nhất <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-xs-12">
+						<div class="new">
+							<a href="#">
+								<img src="image/News/news4.jpg" alt="">
+								<div class="new-content">
+									<div class="new-title">
+										<span>Meliodas - Cuồng Long mê tổ chim, bỏ tổ chức</span>
+									</div>
+									<div class="new-info">
+										<span class="new-view pull-right">16,639 lượt xem</span>
+										<span class="new-day">25/07/2018</span>
+									</div>
+								</div>
+
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="new">
+							<a href="#">
+								<img src="image/News/news2.jpg" alt="">
+								<div class="new-content">
+									<div class="new-title">
+										<span>Sinh nhật nhân vật anime ngày 26/7! - Chúc mừng sinh nhật "cô bé tham ăn" trong Attack on Titan!</span>
+									</div>
+									<div class="new-clip-info">
+										<span class="new-view pull-right">1,756 lượt xem</span>
+										<span class="new-day">26/07/2018</span>
+									</div>
+								</div>
+
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="new">
+							<a href="#">
+								<img src="image/News/news3.jpg" alt="">
+								<div class="new-content">
+									<div class="new-title">
+										<span>Liên hoan phim Anime Tokyo 2018 công bố lịch chiếu phim!!</span>
+									</div>
+									<div class="new-info">
+										<span class="new-view pull-right">3,867 lượt xem</span>
+										<span class="new-day">26/07/2018</span>
+									</div>
+								</div>
+
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--BXH-->
+	<div class="main_content pt-lg-5 mb-lg-5">
+		<div class="container">
+			<div class="bxhs">
+				<div class="bxh-title">
+					<h2>Bảng xếp hạng <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-xs-12">
+						<div class="new-clip">
+							<a href="#">
+								<img src="image/bxh/1.jpg" alt="">
+								<div class="tt_bxh">1</div>
+								<div class="bxh-clip-content">
+									<div class="new-clip-title">
+										<span>Aikatsu Friends</span>
+									</div>
+									<div class="new-clip-info">
+										<span class="new-clip-name">Tập 15 - AiTube Cinderella</span>
+										<span class="new-clip-view pull-right">224 lượt xem</span>
+									</div>
+								</div>
+								<div class="new-clip-see-more">
+									<span>XEM NGAY</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="new-clip">
+							<a href="#">
+								<img src="image/bxh/2.jpg" alt="">
+								<div class="tt_bxh">2</div>
+								<div class="bxh-clip-content">
+									<div class="new-clip-title">
+										<span>Hanebado!</span>
+									</div>
+									<div class="new-clip-info">
+										<span class="new-clip-name">Tập 4 - Mình cũng lạc luôn rồi</span>
+										<span class="new-clip-view pull-right">2,922 lượt xem</span>
+									</div>
+								</div>
+								<div class="new-clip-see-more">
+									<span>XEM NGAY</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="new-clip">
+							<a href="#">
+								<img src="image/bxh/3.jpg" alt="">
+								<div class="tt_bxh">3</div>
+								<div class="bxh-clip-content">
+									<div class="new-clip-title">
+										<span>Attack on Titan</span>
+									</div>
+									<div class="new-clip-info">
+										<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+										<span class="new-clip-view pull-right">47,043 lượt xem</span>
+									</div>
+								</div>
+								<div class="new-clip-see-more">
+									<span>XEM NGAY</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12 mt-4">
+						<div class="new-clip">
+							<a href="#">
+								<img src="image/bxh/4.jpg" alt="">
+								<div class="tt_bxh">4</div>
+								<div class="bxh-clip-content">
+									<div class="new-clip-title">
+										<span>Attack on Titan</span>
+									</div>
+									<div class="new-clip-info">
+										<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+										<span class="new-clip-view pull-right">47,043 lượt xem</span>
+									</div>
+								</div>
+								<div class="new-clip-see-more">
+									<span>XEM NGAY</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12 mt-4">
+						<div class="new-clip">
+							<a href="#">
+								<img src="image/bxh/5.jpg" alt="">
+								<div class="tt_bxh">5</div>
+								<div class="bxh-clip-content">
+									<div class="new-clip-title">
+										<span>Attack on Titan</span>
+									</div>
+									<div class="new-clip-info">
+										<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+										<span class="new-clip-view pull-right">47,043 lượt xem</span>
+									</div>
+								</div>
+								<div class="new-clip-see-more">
+									<span>XEM NGAY</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12 mt-4">
+						<div class="new-clip">
+							<a href="#">
+								<img src="image/bxh/6.jpg" alt="">
+								<div class="tt_bxh">6</div>
+								<div class="bxh-clip-content">
+									<div class="new-clip-title">
+										<span>Attack on Titan</span>
+									</div>
+									<div class="new-clip-info">
+										<span class="new-clip-name">Attack on Titan Tập 38 - Khói hiệu</span>
+										<span class="new-clip-view pull-right">47,043 lượt xem</span>
+									</div>
+								</div>
+								<div class="new-clip-see-more">
+									<span>XEM NGAY</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="bar">
+					<div class="bar-wrap">
+						<ul class="links">
+							<li><a href="/">Xem anime</a></li>
+						</ul>
+						<div class="social">
+							<a href="https://www.facebook.com/Anime47Online/" target="_blank" class="fb">
+								<span class="icon"><i class="fab fa-facebook-f"></i></span>
+								<span class="info">
+									<span class="follow">FANPAGE FACEBOOK</span>
+									<span class="num"><div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/Anime47Online/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" data-width="60" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=125&amp;href=https%3A%2F%2Fwww.facebook.com%2FAnime47Online%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;width=60"><span style="vertical-align: bottom; width: 125px; height: 20px;"><iframe name="f93bcb4df5afa" width="60px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.8/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F0P3pVtbsZok.js%3Fversion%3D42%23cb%3Df8a2587a3a746%26domain%3Danime47.com%26origin%3Dhttp%253A%252F%252Fanime47.com%252Ff196d3fd2f4933c%26relation%3Dparent.parent&amp;container_width=125&amp;href=https%3A%2F%2Fwww.facebook.com%2FAnime47Online%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;width=60" style="border: none; visibility: visible; width: 125px; height: 20px;" class=""></iframe></span></div></span>
+								</span>
+							</a>
+							<a href="#" class="call">
+								<span class="icon"><i class="fas fa-phone-volume"></i></span>
+								<span class="info">
+									<span class="follow">Liên hệ quảng cáo:</span>
+									<span class="num">toiviet.com@gmail.com</span>
+								</span>
+							</a>
+						</div>
+						<div class="clear"></div>
+						<div class="copyright">© 2017 All Rights Reserved •</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>  
+	<script type="text/javascript" src="vendor/angular-1.5.min.js"></script>  
+	<script type="text/javascript" src="vendor/angular-animate.min.js"></script>
+	<script type="text/javascript" src="vendor/angular-aria.min.js"></script>
+	<script type="text/javascript" src="vendor/angular-messages.min.js"></script>
+	<script type="text/javascript" src="vendor/angular-material.min.js"></script>  
+	<script type="text/javascript" src="vendor/1.js"></script>
+	<script type="text/javascript" src="vendor/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="vendor/owl.carousel.js"></script>
+
+	<script>
+
+		$('.owl-carousel').owlCarousel({
+			loop:true,
+			margin:10,
+			nav:true,
+			loop:true,
+			autoplay:true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1,
+					navText:['<i class="fas fa-caret-left"></i>','<i class="fas fa-caret-right"></i>']  
+				}
+			}
+		})
+	</script>
+</body>
+</html>

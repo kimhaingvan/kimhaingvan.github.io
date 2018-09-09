@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script 
+	src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="dangki.js"></script>
+	<title>Đăng kí</title>
+	<link rel="stylesheet" type="text/css" href="dangki.css">
+	<link rel="shortcut icon" type="text/css" href="icon-lol.png">
+</head>
+<body>
+	<div class="anh">
+		<div class="anhcontent">
+			<a  href="#form" class="dangki">
+				ĐĂNG KÍ
+			</a>
+			<a href="LMHT.html" class="trangchu" target="_blank">
+				TRANG CHỦ
+			</a>
+		</div>
+			
+	</div>
+	<div class="menu" id="menu">
+		<a href="LMHT.html"><img src="img_garena_logo.png"></a>
+		<input type="text" name="" placeholder="Tìm kiếm.... ">
+	</div>
+	<div class="noidung">
+		<div class="log-in">
+			<img src="img_garena_logo.png">
+				<form >
+					<p>Tên đăng nhập:</p>
+					<input type="text" name="Tài khoản" placeholder="Tên đăng nhập..." required></input>
+					<br>
+					
+					<p>Mật khẩu: </p>
+					
+					<input type="password" name="Mật khẩu" value="" placeholder="Nhập mật khẩu" required>
+					<br>
+					
+					<input type="submit" name="Đăng nhập" value="Đăng nhập" onclick="dangkythanhcong()">
+					<br>
+					<input type="submit" name="Đăng ký" value="Đăng ký">
+					<a class="fb" href="trangchu.html"><i class="fab fa-facebook-square">    </i>       ĐĂNG NHẬP BẰNG FACEBOOK</a>
+					<a class="gmail" href="trangchu.html"><i class="far fa-envelope"></i>        ĐĂNG NHẬP BẰNG GMAIL</a>
+				</form>
+		</div>
+		<div class="form" id="form">
+			<form method="post" href="file:///C:/Users/Win10/Desktop/Projects/WEB/B%C3%A0i%20T%E1%BA%ADp%20LMHT/B%C3%A0i%20T%E1%BA%ADp%20LMHT/LMHT.html#main">
+				<h1>Đăng ký</h1>
+				<input type="text" name="" placeholder="Tên truy cập..." required>
+				<input type="password" name="" placeholder="Mật khẩu..." required class="matkhau">
+				<input type="password" name="" placeholder="Mật khẩu..." required class="matkhau"><br>
+				<input type="checkbox" name="hienpw" onclick="hienmatkhau()"><span>Bạn có muốn hiện mật khẩu không ?</span><br>
+				<input type="email" name="" placeholder="Email..." required><br>
+				<span>bạn cần sử dụng email này trong trường hợp cần đặt lại mật khẩu
+</span>
+				<br> 
+				<br>
+				<br>
+				<select>
+					<option>Vietnam</option>
+					<option>Japan</option>
+					<option>Vietnam</option>
+					<option>America</option>
+					<option>Korea</option>
+					<option>Thailand</option>
+					<option>Vietnam</option>
+					<option>Singapore</option>
+					<option>England</option>
+					<option>Vietnam</option>
+				</select>
+				<br>
+				<br>
+				<input type="submit" name="" value="Đăng Ký Ngay" onclick="dangkythanhcong()">
+				<br>
+				<a href="#" style="" class="quen"><i >Quên mật khẩu</i></a>
+			</form>
+		</div>
+		<div class="footer">
+			<div class="logo_riot">
+			</div>
+
+			<div class="menunho">
+				<ul>
+					<li><a href="#">VỀ LMHT</a></li>
+					<li><a href="#">PHÁT TRIỂN</a></li>
+					<li><a href="#">CHÍNH SÁCH</a></li>
+					<li><a href="#">HỖ TRỢ</a></li>
+					
+					<br>
+					<span style="float: left;">© 201​8​ Electronic Arts Inc. EA, EA SPORTS, and the EA SPORTS logo are trademarks of Electronic Arts Inc. Official FIFA licensed product. © FIFA name and FIFA's Official Licensed Product Logo are copyrights and/or trademarks of FIFA. All rights reserved. Manufactured under license by Electronic Arts Inc.  </span>
+					
+				</ul>
+			</div>
+
+			<div class="logo_riot2" >
+			</div>
+			<a href="#"><img src="garena-footer.jpg"></a>
+			<div class="gotop" id="quaylaitop" href="#menu" >
+				<a href="#menu"><img src="gototop.png"></a>
+			</div>
+		</div>
+	</div>	
+	</div>
+</body>
+</html>

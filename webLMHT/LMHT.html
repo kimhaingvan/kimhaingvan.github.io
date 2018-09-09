@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon"  href="icon-lol.png" />
+	<title>
+		Trang chủ LMHT
+
+	</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" ></script>
+  	<script type="text/javascript" src="LMHT.js"></script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="LMHT.css">
+</head>
+<body>
+	<div class="log-in">
+		<div class="tat">X</div>
+			<img src="img_garena_logo.png">
+				<form >
+					Tên đăng nhập:
+					<br>
+					<input type="log-in" name="Tài khoản" placeholder="Tên đăng nhập..."></input>
+					<br>
+					Mật khẩu: 
+					<br>
+					<input type="password" name="Mật khẩu" value="" placeholder="Nhập mật khẩu">
+					<br>
+					<input type="submit" name="Đăng nhập" value="Đăng nhập" onclick="dangkythanhcong()" >
+					<br>
+					<input type="submit" name="Đăng ký" value="Đăng ký" >
+					<a class="fb" href="trangchu.html"><i class="fab fa-facebook-square">    </i>       ĐĂNG NHẬP BẰNG FACEBOOK</a>
+					<a class="gmail" href="trangchu.html"><i class="far fa-envelope"></i>        ĐĂNG NHẬP BẰNG GMAIL</a>
+				</form>
+	</div>
+	<div class="main" id="top">	
+		<div class="top-menu" >
+				<ul>
+					<li><a href="#" class="active">TRANG CHỦ</a></li>
+					<li><a href="#" >TIN GAME</a>
+						<ul class="sub-menu" >
+							<li><a href="#">Giải VCS</a></li>
+							<li><a href="#">Giải LCK</a></li>
+							<li><a href="#">Giải LPL</a></li>
+						</ul>
+
+					</li>
+					<li><a href="#">TIN ESPORTS</a>
+						<ul class="sub-menu" >
+							<li><a href="#">LMHT</a></li>
+							<li><a href="#">FIFA ONLINE 3</a></li>
+							<li><a href="#">FIFA ONLINE 4</a></li>
+							<li><a href="#">ĐỘT KÍCH</a></li>
+						</ul>
+					</li>
+					<li><a href="#">CẨM NANG</a>
+						<ul class="sub-menu" >
+							<li><a href="#">Đồng Đoàn</a></li>
+							<li><a href="#">Vàng Đoàn</a></li>
+							<li><a href="#">Kim Cương </a></li>
+							<li><a href="#">Thách Đấu</a></li>
+							
+						</ul>
+					</li>
+					<li><a href="#">CỘNG ĐỒNG</a>
+						<ul class="sub-menu" >
+							<li><a href="#">Garena</a></li>
+							<li><a href="#">Riot</a></li>
+							<li><a href="#">LMHT Việt Nam</a></li>
+							<li><a href="#">Game Thủ</a></li>
+						</ul></li>
+					<li><a href="#">VIDEO</a>
+						<ul class="sub-menu" >
+							<li><a href="gioithieu.html">Hướng Dẫn</a></li>
+							<li><a href="#">Highlight</a></li>
+							<li><a href="#">Combat</a></li>
+							<li><a href="#">Thi Đấu</a></li>
+						</ul>
+					</li>
+					<li><a href="#">HÌNH ẢNH</a></li>
+					<img src="icon-lol.png" style="float:right ">
+				</ul>
+		</div>
+		<div class="chu">
+			<a href="#" title="Liên minh huyền thoại"><img src="lol_logo.png"></a>
+			<div class="ngonngu">
+				<a href="#" style="color: yellow">VIET</a>/<a href="#">ENG</a>
+			</div>
+			<div class="downto">
+				<div class="down"><a href="dangki.html">Đăng ký</a></div>
+				<div class="down"><a href="#">Tải về</a></div>
+				<div class="down" id="dangnhap"><a href="#" >Đăng nhập </a>
+
+				</div>
+				<div class="down"><a href="gioithieu.html">Hướng dẫn</a></div>
+				<div class="down"><a href="#">Nạp FC</a></div>
+			</div>
+		</div>
+		<div class="slideshow">
+			<div class="slide-nho hieuung">
+				<img src="slideshow1.jpg">
+				<h1>Giới thiệu Team Noxus</h2>
+				<div class="nd">Noxus là một ngôi làng trong truyền thuyết với những anh hùng...</div>
+			</div>
+			<div class="slide-nho hieuung">
+				<img src="slideshow2.jpg ">
+				<h1>Chung kết thế giới Mùa 8</h2>
+				<div class="nd">Vào tháng 10-2018 tại Seoul-Hàn Quốc sẽ diễn ra một sự kiện...</div>
+			</div>
+			<div class="slide-nho hieuung" >
+				<img src="slideshow3.jpg">
+				<h1>Vùng đát Ionia</h2>
+				<div class="nd">Ionia huyền bí đã sản sinh ra nhiếu vị tướng...</div>
+			</div>
+			<div class="slide-nho hieuung">
+				<img src="slideshow4.jpg">
+				<h1>Vương Quốc Demacia</h2>
+				<div class="nd">Vương quốc của những anh hùng làm nên danh tiếng...</div>
+			</div>
+			<div class="slide-nho hieuung">
+				<img src="slideshow5.jpg">
+				<h1>Việt Nam vô địch GPL</h2>
+				<div class="nd">GAM Esport đã xuất sắc vô địch Đông Nam Á...</div>
+			</div>
+			<div class="quatrang" onclick="quatrang(1) ">&#10095;</div>
+			<div class="luitrang" onclick="quatrang(-1)">&#10094;</div>
+		</div>
+		
+		<div class="news">
+			<p>Tin Tức Mới Nhất </p>
+			<ul>
+				<li>
+					<a href="tintuc.html"><img src="news2.jpg" title="tin tức"><h2>[Giải GPL ĐNÁ 2018] GAM Esport vô địch giải GPL năm 2018 </h2></a><div>GAM Esport đã xuất sắc đánh bại "đại kình địch" FFQ của Thái Lan để mang vinh quang về cho nền thể thao điện tử Việt Nam....
+					</div>
+					<a href="tintuc.html" class="chitiet" title="xem chi tiet" >Xem chi tiết</a>
+					<span>16h20- 16-7-2018</span>
+				</li>
+				</li>
+				<li>
+					<a href="tintuc.html"><img src="noidung1.jpg" title="tin tức"><h2>Cập nhật tướng: Akali, Sát Thủ Đơn Độc</h2></a><div>Đi giữa khói mù và bóng tối, nhưng con đường phía trước thật rõ ràng - đạo của Akali phải do cô quyết định....
+					</div>
+					<a href="tintuc.html"class="chitiet" title="xem chi tiet">Xem chi tiết</a>
+					<span>16h20- 16-7-2018</span>
+				</li>
+				<li>
+					<a href="tintuc.html"><img src="noidung2.jpg" title="tin tức"><h2>[LPL Mùa Hè 2018] BLG 1-2 SS: Snake tiếp tục bay cao nhờ đôi cánh Sofm – Flandre</h2>
+					</a><div>Cuộc lội ngược dòng ấn tượng của Snake...</div>
+					<a href="tintuc.html"class="chitiet" title="xem chi tiet">Xem chi tiết</a>
+					<span>15h45-28-2-2018</span>
+
+				</li>
+				<li>
+					<a href="tintuc.html"><img src="noidung3.jpg" title="tin tức"><h2>Hi Im Gosu bắn cháy máy với Lucian</h2>
+					</a><div>Mới đây, trên trang cá nhân của mình, tuyển thủ đi rừng Trương “Sena” Tuấn Tú đã chính thức thông báo việc sẽ chia tay đội tuyển FFQ ngay trước thềm VCS Mùa Hè 2018. </div>
+					<a href="tintuc.html"class="chitiet" title="xem chi tiet">Xem chi tiết</a>
+					<span>14h23- 20-7-2018</span>
+				</li>
+				<li>
+					<a href="tintuc.html"><img src="noidung4.jpg" title="tin tức"><h2>Cowsep: Master Yi không bị cấm là anh lại gánh đội ầm ầm!</h2>
+					</a><div> FFQ từ đội tuyển GAM khi giai đoạn nước rút của VCS Mùa Xuân 2018 đang bước đến thời điểm căng thẳng. Tại FFQ, Sena đã thi đấu ở 2 vị trí là đi rừng và hỗ trợ nhưng không thực sự tạo ra được sự chắc chắn.</div>
+					<a href="tintuc.html"class="chitiet" title="xem chi tiet">Xem chi tiết</a>
+					<span>11h23 16-7-2018</span>
+				</li>
+				<li>
+					<a href="tintuc.html"><img src="noidung7.jpg" title="tin tức"><h2>SKT T1: Thanh gươm cùn cất trong vỏ ngọc</h2>
+					</a><div>Tìm lại hào quang xưa cũ như thế nào đây SKT T1?</div>
+					<a href="tintuc.html"class="chitiet" title="xem chi tiet">Xem chi tiết</a>
+						<span> 9h55- 16-7-2018</span>
+				</li>
+				<li>
+					<a href="tintuc.html"><img src="noidung6.jpg" title="tin tức"><h2>Thal và Blank góp mặt trong danh sách những cái tên gây thất vọng nhất giai đoạn lượt đi LCK Mùa Hè 2018</h2>
+					</a><div>Bên cạnh đó, PraY và Score cũng góp mặt...</div>
+					<a href="tintuc.html"class="chitiet" title="xem chi tiet">Xem chi tiết</a>
+					<span>7h00- 16-7-2018</span>
+				</li>
+				<li>
+					<a href="#"><img src="noidung7.jpg" title="tin tức"><h2>Đã tới thời điểm Nocturne gieo rắc nỗi khiếp sợ khắp nơi!</h2>
+					</a><div>Dạo này meta có nhiều cái vui phết nhỉ</div>
+					<a href="tintuc.html"class="chitiet" title="xem chi tiet">Xem chi tiết</a>
+					<span>13h-16-7-2018</span>
+				</li>
+				<li>
+					<a href="#"><img src="noidung8.jpg" title="tin tức"><h2>Lối chơi & một số mẹo nhỏ sau khi Akali “mới” lộ diện – nâng tầm sức mạnh với Bom Khói version.2018!</h2>
+					</a><div>Nghệ thuật ám sát sắp được nâng tầm, và bạn có thể là nạn nhân của nó đó...</div>
+					<a href="tintuc.html"class="chitiet" title="xem chi tiet">Xem chi tiết</a>
+					<span>17h53-16-7-2018</span>
+					<div class="chan">
+						<a href="#" id="truoc"><i>&#10094;&#10094; ...Trước </i></a>
+						<a href="#">...4...</a>
+						
+						<a href="#" id="sau"><i>Sau...&#10095;&#10095; </i></a>
+					</div>
+					
+				</li>
+			</ul>
+		</div>
+		
+		<div class="footer">
+			<div class="logo_riot">
+			</div>
+
+			<div class="menunho">
+				<ul>
+					<li><a href="#">VỀ LMHT</a></li>
+					<li><a href="#">PHÁT TRIỂN</a></li>
+					<li><a href="#">CHÍNH SÁCH</a></li>
+					<li><a href="#">HỖ TRỢ</a></li>
+					
+					<br>
+					<span style="float: left;">© 201​8​ Electronic Arts Inc. EA, EA SPORTS, and the EA SPORTS logo are trademarks of Electronic Arts Inc. Official FIFA licensed product. © FIFA name and FIFA's Official Licensed Product Logo are copyrights and/or trademarks of FIFA. All rights reserved. Manufactured under license by Electronic Arts Inc.  </span>
+					
+				</ul>
+			</div>
+
+			<div class="logo_riot2" >
+			</div>
+			<a href="#"><img src="garena-footer.jpg"></a>
+			
+		</div>
+	</div>	
+	<div class="canhbao">
+		<img src="12+.png">
+	</div>
+	<div class="gotop" id="gotop">
+				<a href="#top"><img src="gototop.png"></a>
+	</div>
+
+</body>
+</html>

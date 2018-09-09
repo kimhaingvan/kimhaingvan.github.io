@@ -1,0 +1,33 @@
+.wraper {
+	width:100%;
+}
+@media (min-width:768px) {
+	.wraper {
+		width:100%;
+	}
+}
+
+@media (max-width:767px) {
+    .new-clip-content{
+		width: auto;
+	}
+	.new-content{
+		width: auto;
+	}
+	.bxh-clip-content{
+		width: auto;
+	}
+}
+
+@media (min-width:992px) {
+	.wraper {
+		width:100%;
+		max-width:1180px;
+	}
+}
+
+@media (min-width:1200px) {
+	.wraper {
+		width:1180px;
+	}
+}
