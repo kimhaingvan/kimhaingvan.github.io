@@ -1,0 +1,406 @@
+*{padding: 0px;margin:0px;}
+
+.mo {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 5;
+    background: #8787875e;
+}
+
+.menudth li {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.menudth li:hover {
+    color: red;
+}
+
+.menudth ul {
+    list-style: none;
+}
+
+.menudth {
+    padding-left: 20px;
+    width: 60%;
+    position: fixed;
+    z-index: 30;
+    top: 0px;
+    left: -1000px;
+    background: #808080eb;
+    color: white;
+    height: 100%;
+    list-style: none;
+    padding-top: 30px;
+    text-align: center;
+}
+
+i.fa.fa-home.iconmenu {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    z-index: 30;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+    color: #ffffff82;
+}
+
+li.nav-item.dropdown.open {
+    display: inline-block;
+}
+
+.dropdown-menu {
+    color: white;
+    position: absolute;
+    padding: 0px;
+    top: 53px;
+    background: #de4747f2;
+}
+
+.dropdown-menu a {
+    color: white;
+    font-size: 20px;
+}
+
+.bvlienquan h2 {
+    font-size: 25px;
+    margin: 30px 0px;
+}
+
+.bvlienquan {
+    border-radius: 10px;
+    text-decoration: underline;
+    font-size: 15px;
+    border: 5px solid gray;
+    background: #6f5e5e3b;
+    padding: 20px;
+}
+
+.bvlienquan a {margin-top: 0px;display: block;}
+
+.bvlienquan a:hover {
+    color: #a51c1c;
+}
+
+.tintuc i {
+    font-size: 10px;
+}
+
+.tintuc .container {
+    border-radius: 8px;
+    background: linear-gradient(lightgray,white);
+    border: 5px solid darkgray;
+    padding: 40px;
+}
+
+.tintuc {
+}
+
+.slideshow div#carousel-example-generic {
+    border: 5px solid #dede14a6;
+    border-radius: 5px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.slideshow div#carousel-example-generic {
+    height: 100%;
+}
+
+.slideshow .row {
+    height: 100%;
+}
+
+.slideshow img {
+}
+
+.sliimg {}
+
+.slideshow .container {
+    height: 100%;
+}
+
+.slideshow {
+    overflow: hidden;
+    height: 350px;
+}
+
+.logo img {
+    cursor: pointer;
+    width: 60%;
+}
+
+.logo {margin-top: 100px;}
+body{
+	background: url('../images/nen.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.btn.btn-danger.nut {
+    border: 3px solid rgba(192,252,253,0.7);
+    color: #f0e6d2;
+    font-size: 15px;
+    background: #1e2328 ;
+    border-image: linear-gradient(to bottom,#08abac,#01698b) ;
+    border-image-slice: 1;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 90% ;
+}
+.nut:hover {
+    box-shadow: 0 0 10px 4px rgba(192,252,253,0.4);
+    background: linear-gradient(rgba(12,50,70,0.9));
+}
+footer .giua .col-xs-12 {
+    color: white;
+}
+footer .giua .col-xs-3 {
+    margin-top: 20px;
+    color: #39840c;
+    padding: 15px;
+}
+
+footer .giua .col-xs-3:hover {
+    color: white;
+}
+.tintuc .col-xs-12.text-xs-center {
+    cursor: pointer;
+    color: #39840c;
+    margin: 20px;
+}
+footer img {
+    padding: 10px 0px 0px 10px;
+}
+.trai img {
+    width: 100%;
+    padding-top: 30px;
+}
+.phai .col-xs-8 img {
+    height: 60%;
+    position: relative;
+    left: 0px;
+    top: 30%;
+}
+.trai {
+    height: 150px;
+}*{padding: 0px;margin:0px;}
+
+footer {
+    background: #0a0e11ab;
+}
+
+.bvlienquan h2 {
+    font-size: 25px;
+    margin: 30px 0px;
+}
+
+.bvlienquan {
+    border-radius: 10px;
+    text-decoration: underline;
+    font-size: 15px;
+    border: 5px solid gray;
+    background: #6f5e5e3b;
+    padding: 20px;
+}
+
+.bvlienquan a {margin-top: 0px;display: block;}
+
+.bvlienquan a:hover {
+    color: #a51c1c;
+}
+
+.tintuc i {
+    font-size: 10px;
+}
+
+.tintuc .container {
+    border-radius: 8px;
+    background: linear-gradient(lightgray,white);
+    border: 5px solid darkgray;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.tintuc {
+}
+
+.slideshow div#carousel-example-generic {
+    border: 5px solid #dede14a6;
+    border-radius: 5px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.slideshow div#carousel-example-generic {
+    height: 100%;
+}
+
+.slideshow .row {
+    height: 100%;
+}
+
+.slideshow img {
+}
+
+.sliimg {}
+
+.slideshow .container {
+    height: 100%;
+}
+
+.slideshow {
+    overflow: hidden;
+    height: 350px;
+}
+
+.logo img {
+    cursor: pointer;
+    width: 60%;
+}
+
+.logo {margin-top: 100px;}
+body{
+	background: url('../images/nen.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.btn.btn-danger.nut {
+    border: 3px solid rgba(192,252,253,0.7);
+    color: #f0e6d2;
+    font-size: 15px;
+    background: #1e2328 ;
+    border-image: linear-gradient(to bottom,#08abac,#01698b) ;
+    border-image-slice: 1;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 90% ;
+}
+.nut:hover {
+    box-shadow: 0 0 10px 4px rgba(192,252,253,0.4);
+    background: linear-gradient(rgba(12,50,70,0.9));
+}
+footer .giua .col-xs-12 {
+    color: white;
+}
+footer .giua .col-xs-3 {
+    margin-top: 20px;
+    color: #39840c;
+    padding: 15px;
+}
+
+footer .giua .col-xs-3:hover {
+    color: white;
+}
+.tintuc .col-xs-12.text-xs-center {
+    cursor: pointer;
+    color: #39840c;
+    margin: 20px;
+}
+footer img {
+    padding: 10px 0px 0px 10px;
+}
+.trai img {
+    width: 100%;
+    padding-top: 30px;
+}
+.phai .col-xs-8 img {
+    height: 60%;
+    position: relative;
+    left: 0px;
+    top: 30%;
+}
+.trai {
+    height: 150px;
+}
+i.fa.fa-angle-up.nutup.fa-5x {
+    cursor: pointer;
+    bottom: 0px;
+    padding: 0px !important;
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    background: #ca24247a;
+    display: inline-block;
+    color: #f7eee9ba;
+    transition: .5s;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 74px;
+    opacity: 0;
+}
+@media (max-width: 576px)
+{   
+.nutup{
+	font-size:40px;
+	line-height:50px !important;
+	width:50px !important;
+	height:50px !important;
+}
+.tintuc h1{
+	font-size:20px;
+	padding:0px;
+
+}
+.slideshow{
+    height:150px;
+}
+    .logo .nut{
+        margin:10px 1px 5px 0px !important;
+        padding:5px !important;
+        font-size:10px !important;
+    }
+    .logo{
+       
+        margin-top:20px;
+    }
+	.phai{
+	    display :none;
+	}
+	.menu{
+	    display:none;
+	}
+	.iconmenu{
+		display:block !important;
+	}
+
+}
+.xuathien{
+	animation: xuathien 0.5s forwards;
+}
+@-webkit-keyframes xuathien{
+	0%{
+		left:-1000px;
+	}
+	100%{
+		left: 0px;
+	}
+}
+.bienmat{
+animation: bienmat 1s forwards;
+}
+@-webkit-keyframes bienmat{
+	0%{
+		left:00px;
+	}
+	100%{
+		left:-1000px;
+	}
+}

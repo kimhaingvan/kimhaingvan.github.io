@@ -1,0 +1,97 @@
+*{padding: 0px;margin: 0px;}
+
+
+#video_background {
+position: absolute;
+bottom: 0px;
+right: 0px;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -1000;
+overflow: hidden;
+}
+
+.mauvang {
+    font-size: 50px;
+    color: #e8e818d6;
+}
+
+.mautrang {
+    font-size: 45px;
+    color: white;
+}
+
+p.btn.btn-danger.nut:hover {
+    box-shadow: 0 0 10px 4px rgba(192,252,253,0.4);
+    background: linear-gradient(rgba(12,50,70,0.9));
+    transform: scale(1.1);
+}
+
+.btn.btn-danger.nut,.btn.btn-danger.nut {
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 3px solid rgba(192,252,253,0.7);
+    padding: 13px 20px 12px;
+    margin:0px 5px 10px 5px;
+    color: #f0e6d2;
+    font-size: 18px;
+    background: #1e2328;
+    border-image: linear-gradient(to bottom,#08abac,#01698b);
+    border-image-slice: 1;
+    display: inline-block;
+    font-weight: lighter;
+}
+
+.noidung {
+    height: 100%;
+}
+
+.row.logo img {
+    height: 65%;
+}
+
+.row.logo {
+    height: 240px;
+    padding-top: 33px;
+    min-height: 50px;
+}
+@media only screen and (max-width: 650px ) {
+    img{
+        width: 300px !important;
+        height: 100px !important;
+    }
+    .row.logo{
+        height: 180px !important;
+        margin-top: 30px !important;
+    }
+
+    .nut {
+        display: inline-block !important;
+        width: 30% !important;
+        font-size: 8px !important;
+    }
+
+    .mautrang {
+        color: black;
+        font-size: 20px !important;
+        margin-top: 29px !important;
+    }
+
+    .mauvang {
+        color: #004cffe3;
+        font-size: 25px !important;
+ }
+    video{
+        display: none;
+
+    }
+    html{
+        z-index: 10;
+        background: lightgray;
+    }
+    .noidung{
+        background: lightgray;
+    }
+}

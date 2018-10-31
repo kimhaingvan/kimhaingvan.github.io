@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> TRANG CHỦ </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="css/animate.css"> <!-- thư viện animate js, wow js -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"><!-- thư viện animate js, wow js -->
+	<script src="js/jquery-1.12.3.min.js"></script> <!-- jquery -->
+	<link rel="stylesheet" href="vendor/bootstrap.css"> <!-- bootstrap -->
+	<link rel="stylesheet" href="vendor/font-awesome.css"><!--  font-awesome -->
+ 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+ 	<script type="text/javascript" src="js/dangky.js"></script> <!-- javascript của mình viết -->
+ 	<link rel="stylesheet" href="css/dangky.css"> <!-- css của mình viết -->
+</head>
+<body>
+	<div class="top">
+		<div class="container">
+			<div class="row ">
+				<div class=" push-xs-2 col-xs-2 btn btn-danger nut nutdangnhap">Đăng nhập</div>
+				<div class=" push-xs-2 col-xs-2 btn btn-danger nut nutdangky">Đăng ký</div>
+				<div class="push-xs-2 col-xs-2 btn btn-danger nut ">Tải về</div>
+			</div>
+		</div>
+	</div> <!-- hết div top  -->
+	<div class="logo">
+		<div class="container-fluid">
+			<div class="row text-xs-center">
+				<div class=" col-md-6 col-xs-12" ><img src="images/img_garena_logo.png" alt=""></div>
+				<div class=" col-md-6 col-xs-12 text-xs-center">
+					<input type="text" placeholder="Tìm kiếm"	></input>
+				</div>
+			</div>
+		</div>
+	</div><!--  hết div logo -->
+	<div class="dangnhap">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-10 push-xs-1 text-xs-center">
+					<img src="images/img_garena_logo.png" alt="logo">
+					<h4>Tên đăng nhập</h4>
+					<input type="text" placeholder="Nhập tên đăng nhập..."	></input>
+					<h4>Mật khẩu</h4>
+					<input type="password" placeholder="Nhập tên mật khẩu...."	></input>
+					<p class="btn btn-success btn-block">Đăng nhập</p>
+					<p class="btn btn-success btn-block">Đăng ký</p>
+					<div class="btn btn-primary fb btn-block"><i class="fa fa-facebook"></i>ĐĂNG NHẬP BẰNG FACEBOOK</div>
+					<div class="btn btn-danger mail btn-block"><i class="fa fa-envelope"></i>ĐĂNG NHẬP BẰNG GMAIL</div>
+				</div>
+			</div>
+
+		</div>
+	</div> <!-- hết div đăng nhập -->
+	<div class="dangky">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-10 push-xs-1 text-xs-center">
+					<div class="form" id="form">
+			<form method="post" href="file:///C:/Users/Win10/Desktop/Projects/WEB/B%C3%A0i%20T%E1%BA%ADp%20LMHT/B%C3%A0i%20T%E1%BA%ADp%20LMHT/LMHT.html#main">
+				<h1>Đăng ký</h1>
+				<input type="text" name="" placeholder="Tên truy cập..." required="">
+				<input type="password" name="" placeholder="Mật khẩu..." required="" class="matkhau">
+				<input type="password" name="" placeholder="Mật khẩu..." required="" class="matkhau"><br>
+				<input type="checkbox" name="hienpw" onclick="hienmatkhau()"><span>Bạn có muốn hiện mật khẩu không ?</span>
+				<input type="email" name="" placeholder="Email..." required=""><br>
+				<span>bạn cần sử dụng email này trong trường hợp cần đặt lại mật khẩu
+</span>
+				<br> 
+				<br>
+				<br>
+				<select>
+					<option>Vietnam</option>
+					<option>Japan</option>
+					<option>Vietnam</option>
+					<option>America</option>
+					<option>Korea</option>
+					<option>Thailand</option>
+					<option>Vietnam</option>
+					<option>Singapore</option>
+					<option>England</option>
+					<option>Vietnam</option>
+				</select>
+				<br>
+				<br>
+				<input type="submit" name="" value="Đăng Ký Ngay" onclick="dangkythanhcong()">
+				<br>
+				<a href="#" style="" class="quen"><i>Quên mật khẩu</i></a>
+			</form>
+		</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2 text-xs-center trai"><img src="images/logo_footer.png" alt=""></div>
+				<div class="col-sm-8 text-xs-center giua">
+					<ul>
+						<li><a href="#">VỀ LMHT</a></li>
+						<li><a href="#">PHÁT TRIỂN</a></li>
+						<li><a href="#">CHÍNH SÁCH</a></li>
+						<li><a href="#">HỖ TRỢ</a></li>
+						
+						<br>
+						<span style="float: left;">© 201&#8203;8&#8203; Electronic Arts Inc. EA, EA SPORTS, and the EA SPORTS logo are trademarks of Electronic Arts Inc. Official FIFA licensed product. © FIFA name and FIFA's Official Licensed Product Logo are copyrights and/or trademarks of FIFA. All rights reserved. Manufactured under license by Electronic Arts Inc.  </span>
+					</ul>
+					<img src="images/garena-footer.jpg" alt="">
+				</div> <!-- hết row giữa  -->
+				<div class="col-sm-2 text-xs-center phai">
+					<img src="images/logo-rating-na.png" alt="">
+				</div> <!-- hết col phải của footer  -->
+			</div>
+		</div>
+	</footer> <!-- hết div footer  -->
+	<i class="fa fa-angle-up fa-5x goup"></i>
+</body>
+</html>

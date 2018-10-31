@@ -1,0 +1,382 @@
+*{padding: 0px;margin: 0px;}
+
+.canhbao img {
+    position: fixed;
+    bottom: 5%;
+    left: 0;
+}
+
+.carousel-caption h3 {
+    color: #d0d02e;
+}
+
+.carousel-item.active {
+    height: 100%;
+}
+
+.menu {
+}
+
+.carosel img {
+    width: 100%;
+}
+
+.carousel-inner {
+    border: 5px solid #847b24c4;
+    cursor: pointer;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.slideshow {
+    position: relative;
+    height: 300px;
+    width: 65%;
+    top: 50px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.dangnhap .btn.btn-primary {
+    margin: 10px;
+}
+
+.dangnhap .btn.btn-success {
+    margin-top: 10px;
+}
+
+.dangnhap input {
+    margin-top: 10px;
+}
+
+.dangnhap b {
+    margin: 20px;
+}
+.dangnhap {
+	transition: 0.5s;
+	opacity: 0;
+    background: linear-gradient(lightgray,white);
+    position: fixed;
+    z-index: -3;
+    top: -20%;
+    left: 37%;
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 5px solid #6f6b6b;
+}
+
+i.fa.fa-angle-up.nutup.fa-5x {
+    padding: 0px !important;
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    background: #ca24247a;
+    display: inline-block;
+    color: #ffffff8c;
+    transition: .5s;
+    opacity: 0;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 74px;
+}
+i.fa.fa-angle-up.nutup.fa-5x.xuathien{
+	animation:xuathien .5s forwards;
+	cursor: pointer;
+}
+@-webkit-keyframes xuathien{
+	0%{
+		opacity: 0;
+		bottom: -100px
+	}
+	100%{
+		bottom: 0px;
+		opacity: 1;
+		
+	}
+}
+.bienmat{
+	animation:bienmat 0.5s;
+}
+@-webkit-keyframes bienmat{
+	0%{
+		bottom: 0px;
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		bottom: -100px
+	}
+}
+.logo {
+    margin-top: 87px;
+    height: 220px;
+}
+.col-xs-2.btn.btn-danger.nut {
+    border: 3px solid rgba(192,252,253,0.7);
+    color: #f0e6d2;
+    font-size: 15px;
+    background: #1e2328;
+    border-image: linear-gradient(to bottom,#08abac,#01698b);
+    border-image-slice: 1;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 90% !important;
+}
+.push-xs-2.col-xs-2.btn.btn-danger.nut:hover {
+    box-shadow: 0 0 10px 4px rgba(192,252,253,0.4);
+    background: linear-gradient(rgba(12,50,70,0.9));
+}
+body{background: #000000db;background-attachment: fixed;}
+footer .giua .col-xs-12 {
+    color: white;
+}
+footer .giua .col-xs-3 {
+    margin-top: 20px;
+    color: #39840c;
+    padding: 15px;
+}
+
+footer .giua .col-xs-3:hover {
+    color: white;
+}
+.tintuc .col-xs-12.text-xs-center {
+    cursor: pointer;
+    color: #39840c;
+    margin: 20px;
+}
+.row hr {
+    width: 95%;
+    background: darkgray;
+    height: 2px;
+    text-align: center;
+}
+.row.mottintuc {
+    position: relative;
+}
+.row.mottintuc:last-child {
+    border:none;
+}
+.ngay {
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+    right: 10%;
+}
+
+.btn.btn-danger.nutchitiet {
+    margin-top: 30px;
+    color: #39840c;
+    background: #21292c;
+    padding: 15px 30px;
+    font-size: 25px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.btn.btn-danger.nutchitiet:hover {
+    background: #39840c;
+    color: #21292c;
+}
+.tintuc .col-sm-8 h2 {
+    margin-right: 10px;
+    margin-top: 15px;
+    color: #39840c;
+    transition: .3s;
+}
+.tintuc .col-sm-8 h2:hover {
+    color: black;
+}
+.tintuc .col-sm-8 i {
+    color: black;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.tintuc {
+    border: 5px solid darkgray;
+    border-radius: 20px;
+    background: linear-gradient(lightgray,white);
+}
+.tintuc h3.tieude {
+    background-color: #cc1111;
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.tintuc img {
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px 20px 20px;
+}
+.logo img {
+    width: 55%;
+    height: 100%;
+}
+footer img {
+    padding: 10px 0px 0px 10px;
+}
+
+.trai img {
+    width: 100%;
+    padding-top: 30px;
+}
+.phai .col-xs-8 img {
+    height: 60%;
+    position: relative;
+    left: 0px;
+    top: 30%;
+}
+.trai {
+    height: 150px;
+}
+.mucslide{
+	width: 100%;
+	height: 150px;
+}
+
+.dixuong{
+	animation:dixuong 1s forwards;
+}
+@-webkit-keyframes dixuong{
+	0%{
+		z-index: -10
+		top:-500px;
+		opacity: 0;
+	}
+	100%{
+		top: 100px;
+		opacity: 1;
+		z-index: 4;
+	}
+}
+.bienlen{
+	animation:bienlen 1.5s forwards;
+}
+@-webkit-keyframes bienlen{
+	0%{
+		transform: translateY(100px);
+		/*top: 100px;*/
+		opacity: 1;
+		z-index: 4;
+	}
+	100%{
+		transform: translateY(900px);
+		z-index: -10;
+		opacity: 0;
+	}
+}
+.nutdangnhap.nut{
+	cursor: pointer;
+}
+.mo {
+	left: 0px;
+	top: 0px;
+    width: 100%;
+    height: 10000px;
+    position: fixed;
+    opacity: 1;
+    z-index: -10;
+    background: #00000087;
+}
+.momo{
+	animation:momo 1s forwards !important;
+}
+@-wekit-keyframes momo{
+	0%{
+		z-index: -10;
+	}
+	100%{
+	
+		z-index: 1 !important;
+	}
+}
+@media(max-width: 600px)
+{
+ .navbar-toggleable-xs{
+ 	width:100%;
+ 	background:#000000b5 !important;
+ 	text-align:center;
+ 	padding:10px;
+ 	height:1000px;
+ 	position: fixed;
+ 	z-index: 10;
+ }
+ .navbar-toggleable-xs img{
+ 	width:80px;
+ }
+ .bg-danger{
+ 	background:#21292c57 !important;
+ }
+ .logo{
+ 	margin-top: 10px;
+ 	height:auto;
+ }
+ .slideshow,carousel-inner{
+ 	width:80%;
+ 	height:150px;
+ 	margin-top:-40px
+ }
+ .carousel-indicators{
+ 	bottom:100px;
+ }
+ .logo .nut{
+ 	margin-top:5px;
+ 	font-size:9px !important;
+ }
+ i.fa.fa-angle-up.nutup.fa-5x.xuathien {
+ 	width:60px;
+ 	height:60px;
+ 	line-height:50px;
+ }
+ .tintuc{
+ 	padding:15px;
+ }
+ .nutchitiet{
+ 	padding:10px !important;
+ 	width:150px;
+ 	font-size:15px !important;
+ }
+ .ngay{
+ 	font-size:15px;
+ 	bottom:-10px;
+ }
+ .phai{
+ display: none;
+ }
+ .phai img{
+ 	padding:0px !important;
+ 	margin:10px !important;
+ }
+ .dangnhap{
+ 	width: 80%;
+ 	left:10%;
+ }
+ .btn.btn-primary,.btn.btn-danger{
+ 	font-size:14px;
+ 	margin: 10px 3px !important;
+ }
+ .navbar.navbar-dark{
+
+ }
+ .carousel-inner{
+ 	height:150px;
+ }
+ .carousel-caption{
+ 	bottom:0px;
+ 	font-size:10px;
+ }
+ .carousel-caption h3{
+ 	bottom:0px;
+ 	font-size:15px;
+ }
+ .carousel-indicators{
+ 	bottom:0px;
+ }
+ .canhbao{
+ 	display:none;
+ }
+}
