@@ -1,5 +1,112 @@
 *{padding: 0px;margin: 0px;}
 
+.container.slide {
+}
+
+.cacSlide  ul.nut li.nut_kichhoat {
+    background: #ae9f9f;
+    opacity: 1;
+    
+    /* color: black; */
+}
+.nut_trai,.nut_phai{
+    position: absolute;
+    font-size: 80px;
+    color:gray;
+    transform: translateY(-50%);
+    top:50%;
+    cursor: pointer;
+
+
+}
+.nut_phai{
+    right: 0px;
+}
+
+ul.nut {z-index: 2;position: absolute;width: 100%;bottom: 0px;margin: 0px;}
+
+.cacSlide  ul li {
+    cursor: pointer;
+    display: inline-block;
+    text-indent: 9999px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    color: white;
+    background: white;
+    margin: 5px;
+    
+    transition: 0.4s;
+}
+
+.cacSlide .motSlide ul li:hover {
+    background: #ae9f9f;
+}
+
+.motSlide.slide_kichhoat{
+    opacity: 1;
+}
+
+.noidung_slide {
+    margin: 5px 15px;
+    cursor: pointer;
+    color: #ffffffbf;
+    position: absolute;
+    bottom: 30px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.noidung_slide {}
+
+.noidung_slide:hover {
+    color: white;
+}
+
+.tieude_slide {
+    cursor: pointer;
+    bottom: 30%;
+    position: absolute;
+    font-size: 40px;
+    color: #ffc800d4;
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.tieude:hover {
+    color: #959513e3;
+}
+
+.cacSlide {
+    /* overflow: hidden; */
+}
+
+.motSlide {
+    border-radius: 10px;
+    border: 5px solid #acac11;
+    margin: auto;
+    width: 80%;
+    height: 350px;
+    background-size: cover;
+    position: absolute;
+    opacity: 0;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.cacSlide {
+    
+position: relative;
+    
+text-align: center;
+    
+height: 350px;
+}
+
+.cacSlide {}
+
 .canhbao img {
     position: fixed;
     bottom: 5%;
@@ -53,8 +160,8 @@
     margin: 20px;
 }
 .dangnhap {
-	transition: 0.5s;
-	opacity: 0;
+    transition: 0.5s;
+    opacity: 0;
     background: linear-gradient(lightgray,white);
     position: fixed;
     z-index: -3;
@@ -82,37 +189,41 @@ i.fa.fa-angle-up.nutup.fa-5x {
     line-height: 74px;
 }
 i.fa.fa-angle-up.nutup.fa-5x.xuathien{
-	animation:xuathien .5s forwards;
-	cursor: pointer;
+    animation:xuathien .5s forwards;
+    cursor: pointer;
 }
 @-webkit-keyframes xuathien{
-	0%{
-		opacity: 0;
-		bottom: -100px
-	}
-	100%{
-		bottom: 0px;
-		opacity: 1;
-		
-	}
+    0%{
+        opacity: 0;
+        bottom: -100px
+    }
+    100%{
+        bottom: 0px;
+        opacity: 1;
+        
+    }
 }
 .bienmat{
-	animation:bienmat 0.5s;
+    animation:bienmat 0.5s;
 }
 @-webkit-keyframes bienmat{
-	0%{
-		bottom: 0px;
-		opacity: 1;
-	}
-	100%{
-		opacity: 0;
-		bottom: -100px
-	}
+    0%{
+        bottom: 0px;
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        bottom: -100px
+    }
 }
 .logo {
     margin-top: 87px;
-    height: 220px;
+    height: 100%;
 }
+
+.logo {}
+
+.logo {}
 .col-xs-2.btn.btn-danger.nut {
     border: 3px solid rgba(192,252,253,0.7);
     color: #f0e6d2;
@@ -234,47 +345,47 @@ footer img {
     height: 150px;
 }
 .mucslide{
-	width: 100%;
-	height: 150px;
+    width: 100%;
+    height: 150px;
 }
 
 .dixuong{
-	animation:dixuong 1s forwards;
+    animation:dixuong 1s forwards;
 }
 @-webkit-keyframes dixuong{
-	0%{
-		z-index: -10
-		top:-500px;
-		opacity: 0;
-	}
-	100%{
-		top: 100px;
-		opacity: 1;
-		z-index: 4;
-	}
+    0%{
+        z-index: -10
+        top:-500px;
+        opacity: 0;
+    }
+    100%{
+        top: 100px;
+        opacity: 1;
+        z-index: 4;
+    }
 }
 .bienlen{
-	animation:bienlen 1.5s forwards;
+    animation:bienlen 1.5s forwards;
 }
 @-webkit-keyframes bienlen{
-	0%{
-		transform: translateY(100px);
-		/*top: 100px;*/
-		opacity: 1;
-		z-index: 4;
-	}
-	100%{
-		transform: translateY(900px);
-		z-index: -10;
-		opacity: 0;
-	}
+    0%{
+        transform: translateY(100px);
+        /*top: 100px;*/
+        opacity: 1;
+        z-index: 4;
+    }
+    100%{
+        transform: translateY(900px);
+        z-index: -10;
+        opacity: 0;
+    }
 }
 .nutdangnhap.nut{
-	cursor: pointer;
+    cursor: pointer;
 }
 .mo {
-	left: 0px;
-	top: 0px;
+    left: 0px;
+    top: 0px;
     width: 100%;
     height: 10000px;
     position: fixed;
@@ -283,100 +394,198 @@ footer img {
     background: #00000087;
 }
 .momo{
-	animation:momo 1s forwards !important;
+    animation:momo 1s forwards !important;
 }
 @-wekit-keyframes momo{
-	0%{
-		z-index: -10;
-	}
-	100%{
-	
-		z-index: 1 !important;
-	}
+    0%{
+        z-index: -10;
+    }
+    100%{
+    
+        z-index: 1 !important;
+    }
 }
 @media(max-width: 600px)
 {
+ .nut_phai,.nut_trai{
+    font-size: 30px;
+ }
+ .noidung_slide h2{
+    font-size: 20px;
+ }
+ .noidung_slide i{
+    font-size: 10px;
+ }
+ .cacSlide{
+   position: relative;
+   text-align: center;
+ }
  .navbar-toggleable-xs{
- 	width:100%;
- 	background:#000000b5 !important;
- 	text-align:center;
- 	padding:10px;
- 	height:1000px;
- 	position: fixed;
- 	z-index: 10;
+    width:100%;
+    background:#000000b5 !important;
+    text-align:center;
+    padding:10px;
+    height:1000px;
+    position: fixed;
+    z-index: 10;
  }
  .navbar-toggleable-xs img{
- 	width:80px;
+    width:80px;
  }
  .bg-danger{
- 	background:#21292c57 !important;
+    background:#21292c57 !important;
  }
  .logo{
- 	margin-top: 10px;
- 	height:auto;
+    margin-top: 10px;
+    height:auto;
  }
  .slideshow,carousel-inner{
- 	width:80%;
- 	height:150px;
- 	margin-top:-40px
+    width:80%;
+    height:150px;
+    margin-top:-40px
  }
  .carousel-indicators{
- 	bottom:100px;
+    bottom:100px;
  }
  .logo .nut{
- 	margin-top:5px;
- 	font-size:9px !important;
+    margin-top:5px;
+    font-size:9px !important;
  }
  i.fa.fa-angle-up.nutup.fa-5x.xuathien {
- 	width:60px;
- 	height:60px;
- 	line-height:50px;
+    width:60px;
+    height:60px;
+    line-height:50px;
  }
  .tintuc{
- 	padding:15px;
+    padding:15px;
  }
  .nutchitiet{
- 	padding:10px !important;
- 	width:150px;
- 	font-size:15px !important;
+    padding:10px !important;
+    width:150px;
+    font-size:15px !important;
  }
  .ngay{
- 	font-size:15px;
- 	bottom:-10px;
+    font-size:15px;
+    bottom:-10px;
  }
  .phai{
  display: none;
  }
  .phai img{
- 	padding:0px !important;
- 	margin:10px !important;
+    padding:0px !important;
+    margin:10px !important;
  }
  .dangnhap{
- 	width: 80%;
- 	left:10%;
+    width: 80%;
+    left:10%;
  }
  .btn.btn-primary,.btn.btn-danger{
- 	font-size:14px;
- 	margin: 10px 3px !important;
+    font-size:14px;
+    margin: 10px 3px !important;
  }
  .navbar.navbar-dark{
 
  }
  .carousel-inner{
- 	height:150px;
+    height:150px;
  }
  .carousel-caption{
- 	bottom:0px;
- 	font-size:10px;
+    bottom:0px;
+    font-size:10px;
  }
  .carousel-caption h3{
- 	bottom:0px;
- 	font-size:15px;
+    bottom:0px;
+    font-size:15px;
  }
  .carousel-indicators{
- 	bottom:0px;
+    bottom:0px;
  }
  .canhbao{
- 	display:none;
+    display:none;
  }
 }
+.tieptheoxuathien_p{
+   animation: tieptheoxuathien 2.5s ease;
+}
+@-webkit-keyframes tieptheoxuathien {
+    0%{
+       transform: translateX(100%);
+    }
+     100%{
+        transform: translateX(-50%);
+    }
+}
+.hientaibienmat_p{
+    animation: hientaibienmat 2.5s ease;
+   
+}
+@-webkit-keyframes hientaibienmat{
+    0%{
+        opacity: 0.9;
+        transform: translateX(-30%);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+
+}
+.hientaibienmat_t{
+    animation:hientaibienmat_t 2.5s ease;
+}
+@-webkit-keyframes hientaibienmat_t{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+        transform: translateX(00%);
+    }
+     100%{
+        transform: scale(0);
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+.tieptheoxuathien_t{
+    animation:tieptheoxuathien_t 2.5s ease;
+}
+@-webkit-keyframes tieptheoxuathien_t{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+     100%{
+        transform: scale(1);
+        opacity: 1;
+        transform: translateX(-50%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
