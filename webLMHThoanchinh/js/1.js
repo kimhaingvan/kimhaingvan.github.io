@@ -109,8 +109,22 @@ for(var i=0 ; i<nuts.length;i++){
 		var phantuhientai=this;
 		console.log(phantuhientai);
 		var vitrislide;
-		
+		var clear= clearInterval(auto_chuyen);
 		for(vitrislide = 0 ;phantuhientai = phantuhientai.previousElementSibling; vitrislide++ ){}
+		
+	
+		for(var i=0 ; i< slides.length;i++){
+			slides[i].classList.remove('slide_kichhoat');
+		nuts[i].classList.remove('nut_kichhoat');
+	}
+		
+		// for(var i=0 ; i<nuts.length;i++){
+		// 	slides[i].classList.remove('slide_kichhoat');
+		// 	nuts[i].classList.remove('nut_kichhoat');
+		// }
+		
+			slides[vitrislide].classList.add('slide_kichhoat');
+			nuts[vitrislide].classList.add('nut_kichhoat');
 		
 
 	})
